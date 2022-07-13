@@ -1,19 +1,26 @@
 
+import React from 'react';
+
 import './App.css';
+import Main from './components/main/Main';
 
-function App() {
+/* elemento principale di react. può essere suddiviso in altri component */
 
-  const name = 'Josh Perez';
-  const element = <h1>Hello, {name}</h1>;
+class App extends React.Component {
 
-  return (
-    <div className="App">
-      <header className="App-header">
-        Hello React! 
-        {element}
-      </header>
-    </div>
-  );
+  
+
+  render() {
+
+    //const Main = React.lazy(() => import('./components/main/Main'));
+
+    return (
+
+      <div className="App">
+        <Main/>
+      </div>
+    );
+  }
 }
 
 export default App;
