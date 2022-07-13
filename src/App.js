@@ -18,13 +18,13 @@ class App extends React.Component {
 
     return (
 
-      <section className="App d-flex">
+      <section className="App d-flex p-2">
         
-        <div className='left-side col-2'>
+        <div className='left-side my-sidebar-wrapper col-2'>
           <SideBar/>
         </div>
 
-        <div className='right-side col-10'>
+        <div className='right-side my-main-content-wrapper col-10'>
           <Header/>
           <Main/>
         </div>

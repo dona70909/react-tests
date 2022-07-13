@@ -10,7 +10,7 @@ class SideBar extends React.Component {
     render() {
         return (
     
-            <h1 className='text-danger'>side</h1>
+            <h1 className='text-danger'>Side</h1>
 
         )
     }
