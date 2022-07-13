@@ -1,0 +1,20 @@
+/* here common style */
+
+
+.wrapper-app {
+
+    height: 100vh;
+    /* background-color: red; */
+}
+
+.my-sidebar-wrapper {
+
+    background: #21222d;
+}
+
+
+.my-main-content-wrapper {
+
+    background-color: blueviolet;
+    
+}

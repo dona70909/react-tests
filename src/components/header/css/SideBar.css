@@ -1,0 +1,38 @@
+
+/* Common styl bi icons */
+.bi {
+
+    color: #97989f;;
+    font-size: 1.6rem;
+}
+
+/* common style li */
+li {
+
+    padding: .7rem 0;
+}
+
+
+li > .bi:hover {
+
+    color: #e1fe5e;
+
+}
+
+
+/* specific style */
+
+#bi-pie-chart {
+
+    font-size: 3rem;
+    color: #edb5a2 ;
+    
+}
+
+/* sidebar clock icon with a lighter bg */
+#my-clock-icon {
+
+    background-color: #2a2b39;
+    padding: .4rem .6rem;
+    border-radius: 15px;
+}
