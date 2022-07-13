@@ -1,6 +1,10 @@
 
 import React from 'react';
 
+/**
+ * Questo è il componente header 
+ */
+
 class Header extends React.Component {
 
     render() {
