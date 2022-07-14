@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Chart from 'chart.js/auto';
+
+
 
 /* css */
 import './css/index.css';
