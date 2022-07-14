@@ -1,0 +1,28 @@
+
+.my-top-nav-wrapper {
+
+    background-color: rgb(185, 11, 11);
+    height: 15vh;
+}
+
+.my-wrapper-icons > .b1  {
+
+    margin: 0 .3rem;
+}
+
+
+.box-profile {
+
+    background-color: gray;
+    padding: .3rem 1rem;
+    border-radius: 10px;
+}
+
+.box-image {
+
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    margin: 0 .5rem;
+}

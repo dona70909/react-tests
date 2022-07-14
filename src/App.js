@@ -27,7 +27,7 @@ class App extends React.Component {
           <SideBar/>
         </div>
 
-        <div className='right-side my-main-content-wrapper col-11 p-2'>
+        <div className='right-side my-main-content-wrapper col-11'>
           <Header/>
           <Main/>
         </div>
