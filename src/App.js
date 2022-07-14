@@ -23,14 +23,14 @@ class App extends React.Component {
 
       <section className="App wrapper-app d-flex">
         
-        <div className='left-side my-sidebar-wrapper col-1 p-2'>
+        <section className='left-side my-sidebar-wrapper col-1 p-2'>
           <SideBar/>
-        </div>
+        </section>
 
-        <div className='right-side my-main-content-wrapper col-11'>
+        <section className='right-side my-main-content-wrapper col-11'>
           <Header/>
           <Main/>
-        </div>
+        </section>
 
       </section>
     );

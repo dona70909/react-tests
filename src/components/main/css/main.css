@@ -1,0 +1,29 @@
+main {
+
+    background-color: rgb(241, 238, 238);
+    height: 85vh;
+}
+.welcome-box {
+
+    background-color: pink;
+    padding: 1rem;
+}
+
+.my-btn {
+    border: none;
+} 
+
+.btn-bar-chart {
+
+    background-color: white;
+    padding: .3rem .5rem;
+    font-size: .8rem;
+    color: gray;
+}
+
+.tracking-btn {
+
+    background-color: black;
+    color: white;
+    padding: .3rem .5rem;
+}
