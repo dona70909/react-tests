@@ -21,17 +21,19 @@ class App extends React.Component {
 
     return (
 
-      <section className="App wrapper-app d-flex">
-        
-        <section className='left-side my-sidebar-wrapper col-1 p-2'>
-          <SideBar/>
-        </section>
+      <section className='App wrapper-app container-fluid'>
+          <section className="row">
+          
+            <section className='left-side my-sidebar-wrapper col-1 p-0 m-0'>
+              <SideBar/>
+            </section>
 
-        <section className='right-side my-main-content-wrapper col-11'>
-          <Header/>
-          <Main/>
-        </section>
+            <section className='right-side my-main-content-wrapper col-11 p-0 m-0'>
+              <Header/>
+              <Main/>
+            </section>
 
+          </section>
       </section>
     );
   }

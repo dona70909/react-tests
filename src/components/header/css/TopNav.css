@@ -2,7 +2,7 @@
 .my-top-nav-wrapper {
 
     background-color: rgb(185, 11, 11);
-    height: 15vh;
+    /* height: 15vh; */ 
 }
 
 .my-wrapper-icons > .b1  {

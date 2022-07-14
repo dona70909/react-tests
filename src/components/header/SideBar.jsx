@@ -13,7 +13,7 @@ class SideBar extends React.Component {
     render() {
         return (
 
-            <nav className='d-flex flex-column justify-space-between align-items-center'>
+            <nav className='my-side-bar d-flex flex-column justify-space-between align-items-center'>
 
 
                 <h2 className='mb-5 text-center'> 

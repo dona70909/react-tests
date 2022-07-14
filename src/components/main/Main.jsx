@@ -40,7 +40,7 @@ class Main extends React.Component {
                 isBillable: <td>Billable</td>,
                 time: <td>3:00 - 3.30 PM</td>,
                 duration: <td>0.30</td>,
-                icon: <td> <i className="bi bi-play-circle-fill"></i> <i className="bi bi-three-dots"></i></td>
+                icon: <td><i className="bi bi-play-circle-fill"></i> <i className="bi bi-three-dots"></i></td>
             },
 
             {
@@ -49,7 +49,7 @@ class Main extends React.Component {
                 isBillable: <td>Billable</td>,
                 time: <td>3:00 - 3.30 PM</td>,
                 duration: <td>0.30</td>,
-                icon: <td> <i className="bi bi-play-circle-fill"></i> <i className="bi bi-three-dots"></i></td>
+                icon: <td><i className="bi bi-play-circle-fill"></i><i className="bi bi-three-dots"></i></td>
             },
 
             {
@@ -58,7 +58,7 @@ class Main extends React.Component {
                 isBillable: <td>Billable</td>,
                 time: <td>3:00 - 3.30 PM</td>,
                 duration: <td>0.30</td>,
-                icon: <td> <i className="bi bi-play-circle-fill"></i> <i className="bi bi-three-dots"></i></td>
+                icon: <td><i className="bi bi-play-circle-fill"></i><i className="bi bi-three-dots"></i></td>
             }
         ]
     }
@@ -88,15 +88,13 @@ class Main extends React.Component {
                         }}/>
 
                         <div className='wrapper-table'>
-                            <tbody>
-                                
-                                {this.state.tableRows.map(
-
-                                    
-                                    tbRow => <tr>{tbRow.title} {tbRow.isBillable} </tr>
-                                )}
-                                
-                            </tbody>
+                            <table>
+                                <tbody>
+                                    {this.state.tableRows.length > 0 ? this.state.tableRows.map(
+                                        tbRow => <tr key={tbRow.id}>{tbRow.title} {tbRow.isBillable}</tr>
+                                    ) : <tr>Nessun contenuto </tr>}
+                                </tbody>
+                            </table>
                         </div>
                     </div>
 

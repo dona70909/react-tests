@@ -3,8 +3,8 @@
 
 .wrapper-app {
 
-    height: 100vh;
     /* background-color: red; */
+    /* height: 100%; */
 }
 
 .my-sidebar-wrapper {
@@ -12,9 +12,3 @@
     background: #21222d;
 }
 
-
-/* .my-main-content-wrapper {
-
-    background-color: blueviolet; 
-    
-} */
