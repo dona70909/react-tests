@@ -37,3 +37,56 @@ main {
     padding: .3rem .5rem;
     font-size: .7rem;
 }
+
+/* table */
+
+.wrapper-btn-table > button {
+
+    border:none;
+    background-color: white;
+    border-radius: 8px;
+
+}
+
+.wrapper-btn-table > .btn-today {
+
+    color: gray;
+    padding: .3rem .9rem;
+}
+
+#btn-filter {
+
+    padding: .3rem .5rem;
+}
+
+.my-row-border {
+
+    border: 1px solid gray ;
+    border-radius: 13px;
+    padding: .5rem;
+    background-color: #f5f6f7;
+}
+
+tr:hover {
+
+    background-color: #ffffff;
+    box-shadow: 5px 5px rgba(180, 180, 180, 10);
+
+} 
+
+
+td > i {
+
+    font-size: .5rem;
+    margin: .2rem;
+}
+
+td > h6 {
+
+    font-size: 1rem;
+}
+
+tr > td {
+
+    border: none;
+}

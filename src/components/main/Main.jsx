@@ -36,29 +36,29 @@ class Main extends React.Component {
 
             {
                 id:0, 
-                title: <td>Fixing bug</td>,
-                isBillable: <td>Billable</td>,
-                time: <td>3:00 - 3.30 PM</td>,
-                duration: <td>0.30</td>,
-                icon: <td><i className="bi bi-play-circle-fill"></i> <i className="bi bi-three-dots"></i></td>
+                title: <td><h6>Fixing bug</h6></td>,
+                isBillable: <td><h6>Billable</h6></td>,
+                time: <td><h6>3:00 - 3.30 PM</h6></td>,
+                duration: <td><h6>0.30</h6></td>,
+                icon: <td className='d-flex'><i className="bi bi-play-circle-fill"></i> <i className="bi bi-three-dots"></i></td>
             },
 
             {
                 id:1, 
-                title: <td>Illustration</td>,
-                isBillable: <td>Billable</td>,
-                time: <td>3:00 - 3.30 PM</td>,
-                duration: <td>0.30</td>,
-                icon: <td><i className="bi bi-play-circle-fill"></i><i className="bi bi-three-dots"></i></td>
+                title: <td><h6>Illustration</h6></td>,
+                isBillable: <td><h6>Billable</h6></td>,
+                time: <td><h6>3:00 - 3.30 PM</h6></td>,
+                duration: <td><h6>0.30</h6></td>,
+                icon: <td className='d-flex'><i className="bi bi-play-circle-fill "></i><i className="bi bi-three-dots"></i></td>
             },
 
             {
                 id:2, 
-                title:<td>Filling tax return</td>,
-                isBillable: <td>Billable</td>,
-                time: <td>3:00 - 3.30 PM</td>,
-                duration: <td>0.30</td>,
-                icon: <td><i className="bi bi-play-circle-fill"></i><i className="bi bi-three-dots"></i></td>
+                title:<td><h6>Filling tax return</h6></td>,
+                isBillable: <td><h6>Billable</h6></td>,
+                time: <td><h6>3:00 - 3.30 PM</h6></td>,
+                duration: <td><h6>0.30</h6></td>,
+                icon: <td className='d-flex'><i className="bi bi-play-circle-fill"></i><i className="bi bi-three-dots"></i></td>
             }
         ]
     }
@@ -79,7 +79,7 @@ class Main extends React.Component {
                             </button>
                         </div>
 
-                        <Bar className='bar-chart-bg mb-4' data={state} options={{
+                        <Bar className='bar-chart-bg mb-5' data={state} options={{
                             title: {
                                 display:true,
                                 text:"average",
@@ -87,15 +87,23 @@ class Main extends React.Component {
                             },
                         }}/>
 
-                        <div className='wrapper-table'>
-                            <table>
-                                <tbody>
-                                    {this.state.tableRows.length > 0 ? this.state.tableRows.map(
-                                        tbRow => <tr key={tbRow.id}>{tbRow.title} {tbRow.isBillable}</tr>
-                                    ) : <tr>Nessun contenuto </tr>}
-                                </tbody>
-                            </table>
+                        <div className="wrapper-title-table d-flex justify-content-between mb-3">
+                            <h4>Time tracker</h4>
+                            <div className='wrapper-btn-table'>
+                                <button className='btn-today mx-2'>Today</button>
+                                <button><i className="bi bi-funnel-fill" id='btn-filter'></i></button>
+                            </div>
                         </div>
+
+                        <table className='table'>
+                            <tbody>
+                                {this.state.tableRows.length > 0 ? this.state.tableRows.map(
+                                    tbRow => <tr className='d-flex justify-content-between align-items-center my-row-border mb-4' key={tbRow.id}>
+                                        {tbRow.title} {tbRow.isBillable} {tbRow.time} {tbRow.duration} {tbRow.icon}
+                                        </tr>
+                                ) : <tr>Nessun contenuto </tr>}
+                            </tbody>
+                        </table>
                     </div>
 
                     <div className="col-4 wrapper-left-charts">
