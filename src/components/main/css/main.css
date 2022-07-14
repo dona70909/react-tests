@@ -1,17 +1,26 @@
 main {
 
     background-color: rgb(241, 238, 238);
-    height: 85vh;
+    height: 100%;
 }
 .welcome-box {
 
-    background-color: pink;
+    background-color: #efb7a4;
     padding: 1rem;
+    border-radius: 13px;
 }
 
 .my-btn {
     border: none;
 } 
+
+
+.bar-chart-bg {
+
+    border-radius: 25px;
+    background-color: white;
+    padding: 1rem;
+}
 
 .btn-bar-chart {
 
@@ -26,4 +35,5 @@ main {
     background-color: black;
     color: white;
     padding: .3rem .5rem;
+    font-size: .7rem;
 }
