@@ -2,6 +2,7 @@
 import React from 'react';
 import Chart from 'chart.js/auto';
 import {Bar} from 'react-chartjs-2';
+import {Doughnut } from 'react-chartjs-2';
 
 import './css/main.css';
 
@@ -25,6 +26,24 @@ const state = {
             data: [38, 28, 25, 41, 26,20]
         }
     ]
+}
+
+const pie = {
+
+    labels: ['Branding', 'Office' , 'Transport'],
+
+    datasets: [{
+
+        label:'schema',
+        data:[30,30,40],
+        backgroundColor: [
+            
+            'rgb(225, 254, 94)',
+            'rgb(239, 183, 164)',
+            'rgb(183, 239, 240)',
+        ],
+        border:'none'
+    }],
 }
 
 
@@ -107,7 +126,8 @@ class Main extends React.Component {
                     </div>
 
                     <div className="col-4 wrapper-left-charts">
-                        <div className="welcome-box">
+
+                        <div className="welcome-box mb-5">
                             <div className="title">
                                 <p className="m-0 p-0">
                                     Welcome back to ypur
@@ -122,6 +142,32 @@ class Main extends React.Component {
                                     </p>
                                 </button>
                             </div>
+                        </div>
+
+                        <div className="doughnut-title d-flex justify-content-between mb-2">
+                            <h3>Report</h3>
+                            <button>weekly</button>
+                        </div>
+                        <div className="doughnut-wrapper mb-3">
+                            <Doughnut className='h-100' data={pie} options={{
+                                title: {
+                                    display:true,
+                                    text:"average",
+                                    fontSize:20
+                                },
+                            }}/>
+                        </div>
+
+                        <div className="integration-title d-flex mb-3">
+                            <h3>Integration</h3>
+                        </div>
+
+                        <div>
+                            box github
+                        </div>
+
+                        <div>
+                            box notion
                         </div>
                     </div>
 
