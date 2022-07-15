@@ -42,8 +42,17 @@ const pie = {
             'rgb(239, 183, 164)',
             'rgb(183, 239, 240)',
         ],
-        border:'none'
+        border:'none',
+        
     }],
+
+    scale: [
+
+        {
+            scale:.5,
+            type:'tick'
+        }
+    ]
 }
 
 
