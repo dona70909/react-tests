@@ -4,6 +4,7 @@ import Chart from 'chart.js/auto';
 import {Bar} from 'react-chartjs-2';
 import {Doughnut } from 'react-chartjs-2';
 
+
 import './css/main.css';
 
 
@@ -45,14 +46,6 @@ const pie = {
         border:'none',
         
     }],
-
-    scale: [
-
-        {
-            scale:.5,
-            type:'tick'
-        }
-    ]
 }
 
 
@@ -98,10 +91,11 @@ class Main extends React.Component {
 
                 <section className="row justify-content-center">
 
+                    {/* left content */}
                     <div className='col-7 p-3 wrapper-bar-chart'>
 
-                        <div className='d-flex justify-content-between mb-5'>
-                            <h6 className='m-0'>Time Spend on projects</h6>
+                        <div className='chart-bar-title d-flex justify-content-between mb-5'>
+                            <h4 className='m-0'>Time Spend on projects</h4>
                             <button className='my-btn btn-bar-chart'>
                                 <p className='m-0 p-0'>Last 6 days</p>
                             </button>
@@ -118,7 +112,9 @@ class Main extends React.Component {
                         <div className="wrapper-title-table d-flex justify-content-between mb-3">
                             <h4>Time tracker</h4>
                             <div className='wrapper-btn-table'>
-                                <button className='btn-today mx-2'>Today</button>
+                                <button className='btn-today mx-2'>
+                                    <p className='m-0 p-0'>Today</p>
+                                </button>
                                 <button><i className="bi bi-funnel-fill" id='btn-filter'></i></button>
                             </div>
                         </div>
@@ -134,31 +130,38 @@ class Main extends React.Component {
                         </table>
                     </div>
 
+                    {/* right content */}
                     <div className="col-4 wrapper-left-charts">
 
+                        {/* user welcome box */}
                         <div className="welcome-box mb-5">
                             <div className="title">
                                 <p className="m-0 p-0">
-                                    Welcome back to ypur
+                                    Welcome back to your
                                 </p>
+
                                 <h6 className='mb-3 p-0'>
                                     Daily time tracker
                                 </h6>
 
-                                <button className='tracking-btn my-btn'>
-                                    <p className="m-0 p-0">
+                                <button id='tracking-btn' className='my-btn'>
+                                    <p id='tracking-btn-text' className="m-0 p-0">
                                         Start tracking
                                     </p>
                                 </button>
                             </div>
                         </div>
 
-                        <div className="doughnut-title d-flex justify-content-between mb-2">
-                            <h3>Report</h3>
-                            <button>weekly</button>
+                        {/* doughnut */}
+                        <div className="doughnut-title d-flex justify-content-between align-items-baseline mb-3">
+                            <h4>Report</h4>
+                            <button>
+                                <p className='m-0 p-0'>Weekly</p>
+                            </button>
                         </div>
-                        <div className="doughnut-wrapper mb-3">
-                            <Doughnut className='h-100' data={pie} options={{
+
+                        <div className="doughnut-wrapper mb-5">
+                            <Doughnut style={{width:'200px'}} className='h-100' data={pie} options={{
                                 title: {
                                     display:true,
                                     text:"average",
@@ -167,17 +170,39 @@ class Main extends React.Component {
                             }}/>
                         </div>
 
+                        {/* Integration */}
                         <div className="integration-title d-flex mb-3">
-                            <h3>Integration</h3>
+                            <h4>Integration</h4>
                         </div>
 
-                        <div>
-                            box github
-                        </div>
+                        <section className="integration-box-wrapper">
+                            <div className='box slack-box'>
+                                <div className='box-title d-flex justify-content-between'>
+                                    <img className='w-100' src="../assets/slack_logo.png" alt="slack logo"  />
+                                    <button>
+                                        Connected
+                                    </button>
+                                </div>
+                                <p>
+                                    Integration involves identifying which components to integrate
+                                    and how to get a reference
+                                </p>
+                            </div>
 
-                        <div>
-                            box notion
-                        </div>
+                            <div className='box notion-box'>
+                                <div className="box-title d-flex justify-content-between">
+                                    <img src="" alt="notion logo" />
+                                    <button>
+                                        Connect
+                                    </button>
+                                </div>
+
+                                <p>
+                                    Integration involves identifying which components to integrate
+                                    and how to get a reference
+                                </p>
+                            </div>
+                        </section>
                     </div>
 
                 </section>

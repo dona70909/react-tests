@@ -16,11 +16,11 @@ class Header extends React.Component {
 
                 <div className='title'>
                     <h4>Dashboard</h4>
-                    <h6>date</h6>
+                    <h6>17 january, 2022</h6>
                 </div>
 
                 <div className='search-bar'>
-                    <input className='px-5' type="text" placeholder='Search or type a command'/>
+                    <input type="text" placeholder='Search or type a command'/>
                 </div>
 
                 <div className='wrapper-left-side d-flex align-items-center'>

@@ -3,16 +3,25 @@ main {
     background-color: rgb(241, 238, 238);
     /* height: 100%; */
 }
-.welcome-box {
 
-    background-color: #efb7a4;
-    padding: 1rem;
-    border-radius: 13px;
-}
 
 .my-btn {
     border: none;
-} 
+}
+
+/* Bar chart */
+
+.chart-bar-title  > h4 {
+
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.chart-bar-title  > button{
+
+    border-radius: 10px;
+    padding: .3rem .6rem;
+}
 
 
 .bar-chart-bg {
@@ -30,15 +39,17 @@ main {
     color: gray;
 }
 
-.tracking-btn {
 
-    background-color: black;
-    color: white;
-    padding: .3rem .5rem;
-    font-size: .7rem;
-}
 
 /* table */
+
+.wrapper-title-table > h4 {
+
+    font-size: 1.3rem;
+    font-weight: 700;
+
+}
+
 
 .wrapper-btn-table > button {
 
@@ -92,11 +103,118 @@ tr > td {
 }
 
 
-/* doughnot */
+/* welcome user box section*/
+
+.welcome-box {
+
+    background-color: #efb7a4;
+    padding: 1rem;
+    border-radius: 13px;
+}
+
+.welcome-box .title p {
+
+    font-size: .7rem;
+    color: rgb(61, 61, 61);
+}
+
+
+.welcome-box .title h6{
+
+    font-size: 1.3rem;
+    font-weight: 700;
+    
+}
+
+#tracking-btn {
+
+    background-color: black;
+    padding: .3rem .6rem;
+    border-radius: 10px;
+    
+
+}
+
+#tracking-btn #tracking-btn-text {
+
+    color: white;
+    font-size: .7rem;
+}
+
+
+/* doughnut */
 
 .doughnut-wrapper {
 
     background-color: white;
     padding: 1rem;
-    
+
+
+}
+
+.doughnut-title button {
+
+    border: .1rem solid rgb(211, 211, 211);
+    font-size: .7rem;
+    padding: .2rem 1.5rem;
+    border-radius: 7px;
+    color: rgb(211, 211, 211);
+    background-color: rgb(249, 248, 250);
+
+}
+
+.doughnut-title > h4 {
+
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+/* integration */
+
+.integration-title > h4{
+
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+
+.integration-box-wrapper {
+
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.box {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(177, 177, 177);;
+    box-shadow: 2px 2px rgb(177, 177, 177);
+    border-radius: 10px;
+}
+
+.box-title {
+
+    margin-bottom: .5rem;
+}
+
+.box button {
+
+    border: none;
+}
+
+.slack-box  button {
+
+    background-color: rgb(238, 182, 163);
+    padding: .2rem .5rem;
+    border-radius: 10px;
+}
+
+.notion-box  button {
+
+    background-color: rgb(218, 219, 221);
+    padding: .2rem .5rem;
+    border-radius: 10px;
 }
