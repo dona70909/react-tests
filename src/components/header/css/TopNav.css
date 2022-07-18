@@ -6,24 +6,25 @@
     padding: 1rem 1.5rem;
 }
 
-.title h4 {
+.header-title > h4 {
 
     font-weight: 700;
     font-size: .9rem;
 }
 
-.title h6 {
+.header-title > h6 {
 
     color: lightgray;
     font-size: .7rem;
 }
 
-.search-bar input {
+.search-bar > input {
 
-    background-color: rgb(218, 219, 221);
+    background-color: rgb(235, 235, 235);
     border: none;
+    border-radius: 10px;
     padding: .7rem 3rem;
-    background-image: url('http://i47.tinypic.com/r02vbq.png');
+    /* background-image: url('http://i47.tinypic.com/r02vbq.png'); */
     background-repeat: no-repeat;
     background-position: left center;
 }

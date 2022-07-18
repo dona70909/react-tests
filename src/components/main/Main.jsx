@@ -140,7 +140,7 @@ class Main extends React.Component {
                                     Welcome back to your
                                 </p>
 
-                                <h6 className='mb-3 p-0'>
+                                <h6  className='mb-3 p-0'>
                                     Daily time tracker
                                 </h6>
 

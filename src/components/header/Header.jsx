@@ -14,7 +14,7 @@ class Header extends React.Component {
     
             <nav className='my-top-nav-wrapper d-flex justify-content-between align-items-center px-3'>
 
-                <div className='title'>
+                <div className='header-title'>
                     <h4>Dashboard</h4>
                     <h6>17 january, 2022</h6>
                 </div>

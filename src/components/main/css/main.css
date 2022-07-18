@@ -112,14 +112,14 @@ tr > td {
     border-radius: 13px;
 }
 
-.welcome-box .title p {
+.welcome-box .title > p {
 
     font-size: .7rem;
     color: rgb(61, 61, 61);
 }
 
 
-.welcome-box .title h6{
+.welcome-box .title > h6{
 
     font-size: 1.3rem;
     font-weight: 700;
