@@ -2,7 +2,6 @@
 .my-top-nav-wrapper {
 
     background-color: white; 
-    /* height: 15vh; */ 
     padding: 1rem 1.5rem;
 }
 
@@ -16,6 +15,11 @@
 
     color: lightgray;
     font-size: .8rem;
+}
+
+.header-date  > .bi{
+
+    font-size: .7rem ;
 }
 
 .search-bar > input {

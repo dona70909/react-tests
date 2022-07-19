@@ -16,7 +16,7 @@ class Header extends React.Component {
 
                 <div className='header-title'>
                     <h4>Dashboard</h4>
-                    <h6>17 january, 2022</h6>
+                    <h6 className='header-date'>17 january, 2022 <i class="bi bi-chevron-down"></i></h6>
                 </div>
 
                 <div className='d-flex search-bar'>
