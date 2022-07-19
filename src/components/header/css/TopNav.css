@@ -1,7 +1,7 @@
 
 .my-top-nav-wrapper {
 
-    /* background-color: rgb(185, 11, 11); */
+    background-color: white; 
     /* height: 15vh; */ 
     padding: 1rem 1.5rem;
 }
@@ -9,13 +9,13 @@
 .header-title > h4 {
 
     font-weight: 700;
-    font-size: .9rem;
+    font-size: 1.6rem;
 }
 
 .header-title > h6 {
 
     color: lightgray;
-    font-size: .7rem;
+    font-size: .8rem;
 }
 
 .search-bar > input {

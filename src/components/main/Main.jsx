@@ -87,7 +87,7 @@ class Main extends React.Component {
     render() {
         return (
     
-            <main className='container-fluid py-3'>
+            <main className='container-fluid pt-5'>
 
                 <section className="row justify-content-center">
 
