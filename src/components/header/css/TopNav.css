@@ -41,6 +41,12 @@
     color: rgb(211, 210, 216);
 }
 
+#my-header-chevron {
+
+    font-size: .8rem;
+    font-weight: 700;
+}
+
 
 .box-profile {
 
@@ -49,10 +55,6 @@
     border-radius: 10px;
 }
 
-.box-image {
-
-    
-}
 
 .box-image > img {
 

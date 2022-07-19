@@ -41,7 +41,7 @@ class Header extends React.Component {
                         </div>
 
                         <div className='user-name-box'>
-                            <h6 className='m-0 p-0'>Stepheni</h6>
+                            <h6 className='m-0 p-0'>Stepheni <i id='my-header-chevron' className="bi bi-chevron-down"></i></h6>
                             <p className='m-0 p-0'>Designer</p>
                         </div>
                     </div>

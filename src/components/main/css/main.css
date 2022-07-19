@@ -155,10 +155,10 @@ tr > td {
 .doughnut-title button {
 
     border: .1rem solid rgb(211, 211, 211);
-    font-size: .7rem;
+    font-size: .8rem;
     padding: .2rem 1.5rem;
     border-radius: 7px;
-    color: rgb(211, 211, 211);
+    color: rgb(197, 195, 195);
     background-color: rgb(249, 248, 250);
 
 }

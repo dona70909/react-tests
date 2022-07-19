@@ -97,7 +97,10 @@ class Main extends React.Component {
                         <div className='chart-bar-title d-flex justify-content-between mb-5'>
                             <h4 className='m-0'>Time Spend on projects</h4>
                             <button className='my-btn btn-bar-chart'>
-                                <p className='m-0 p-0'>Last 6 days</p>
+                                <p className='m-0 p-0'>
+                                    Last 6 days
+                                    <i id='my-header-chevron' className="bi bi-chevron-down mx-1"></i>
+                                </p>
                             </button>
                         </div>
 
@@ -113,7 +116,10 @@ class Main extends React.Component {
                             <h4>Time tracker</h4>
                             <div className='wrapper-btn-table'>
                                 <button className='btn-today mx-2'>
-                                    <p className='m-0 p-0'>Today</p>
+                                    <p className='m-0 p-0'>
+                                        Today
+                                        <i id='my-header-chevron' className="bi bi-chevron-down mx-1"></i>
+                                    </p>
                                 </button>
                                 <button><i className="bi bi-funnel-fill" id='btn-filter'></i></button>
                             </div>
@@ -156,7 +162,10 @@ class Main extends React.Component {
                         <div className="doughnut-title d-flex justify-content-between align-items-baseline mb-3">
                             <h4>Report</h4>
                             <button>
-                                <p className='m-0 p-0'>Weekly</p>
+                                <p className='m-0 p-0'>
+                                    Weekly
+                                    <i id='my-header-chevron' className="bi bi-chevron-down mx-1"></i>
+                                </p>
                             </button>
                         </div>
 
