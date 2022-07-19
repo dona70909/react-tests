@@ -36,3 +36,10 @@ li > .bi:hover {
     padding: .4rem .6rem;
     border-radius: 15px;
 }
+
+#my-plus-circle {
+
+    background-color: #2a2b39;
+    padding: .4rem .6rem;
+    border-radius: 50%;
+}

@@ -19,7 +19,8 @@ class Header extends React.Component {
                     <h6>17 january, 2022</h6>
                 </div>
 
-                <div className='search-bar'>
+                <div className='d-flex search-bar'>
+                    <i className="bi bi-search"></i>
                     <input type="text" placeholder='Search or type a command'/>
                 </div>
 
@@ -39,7 +40,7 @@ class Header extends React.Component {
                             <img src="#" alt="" />
                         </div>
 
-                        <div>
+                        <div className='user-name-box'>
                             <h6 className='m-0 p-0'>Stepheni</h6>
                             <p className='m-0 p-0'>Designer</p>
                         </div>

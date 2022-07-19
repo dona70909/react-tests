@@ -24,9 +24,9 @@ class App extends React.Component {
       <section className='App wrapper-app container-fluid'>
           <section className="row">
           
-            <section className='left-side my-sidebar-wrapper col-1 p-0 m-0'>
+            <header className='left-side my-sidebar-wrapper col-1 p-0 m-0'>
               <SideBar/>
-            </section>
+            </header>
 
             <section className='right-side my-main-content-wrapper col-11 p-0 m-0'>
               <Header/>

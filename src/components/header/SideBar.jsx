@@ -13,7 +13,7 @@ class SideBar extends React.Component {
     render() {
         return (
 
-            <nav className='my-side-bar d-flex flex-column justify-space-between align-items-center'>
+            <nav className='my-side-bar d-flex flex-column justify-space-between '>
 
 
                 <h2 className='mb-5 text-center'> 
@@ -44,6 +44,12 @@ class SideBar extends React.Component {
 
                     <li>
                         <i className="bi bi-gear-fill"></i>
+                    </li>
+                </ul>
+
+                <ul className='list-unstyled d-flex flex-column align-items-center justify-content-end'>
+                    <li>
+                        <i id='my-plus-circle' className="bi bi-plus-circle"></i>
                     </li>
                 </ul>
             </nav>
