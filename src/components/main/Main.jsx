@@ -178,7 +178,7 @@ class Main extends React.Component {
                         <section className="integration-box-wrapper">
                             <div className='box slack-box'>
                                 <div className='box-title d-flex justify-content-between'>
-                                    <img className='w-100' src="../assets/slack_logo.png" alt="slack logo"  />
+                                    <img  src="/images/slack_logo.png" alt="slack logo"  />
                                     <button>
                                         Connected
                                     </button>
@@ -191,7 +191,7 @@ class Main extends React.Component {
 
                             <div className='box notion-box'>
                                 <div className="box-title d-flex justify-content-between">
-                                    <img src="" alt="notion logo" />
+                                    <img src="/images/notion_logo.png" alt="notion logo" />
                                     <button>
                                         Connect
                                     </button>

@@ -37,7 +37,7 @@ class Header extends React.Component {
                     <div className='d-flex justify-content-between align-items-center box-profile'>
 
                         <div className='box-image'>
-                            <img src="#" alt="" />
+                            <img src="/images/cv2.png" alt="" />
                         </div>
 
                         <div className='user-name-box'>

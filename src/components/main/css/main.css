@@ -200,6 +200,11 @@ tr > td {
     margin-bottom: .5rem;
 }
 
+.box-title > img {
+
+    width: 20%;
+}
+
 .box button {
 
     border: none;
