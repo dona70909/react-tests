@@ -85,6 +85,13 @@ tr:hover {
 } 
 
 
+tr:hover  td > .bi {
+
+    color: black;
+
+} 
+
+
 td > i {
 
     font-size: .5rem;
@@ -221,4 +228,10 @@ tr > td {
     background-color: rgb(218, 219, 221);
     padding: .2rem .5rem;
     border-radius: 10px;
+}
+
+.integration-btn p {
+
+    margin: 0;
+    font-size: .9rem;
 }

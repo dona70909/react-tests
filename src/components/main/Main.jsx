@@ -112,6 +112,8 @@ class Main extends React.Component {
                             },
                         }}/>
 
+
+                        {/* Table  */}
                         <div className="wrapper-title-table d-flex justify-content-between mb-3">
                             <h4>Time tracker</h4>
                             <div className='wrapper-btn-table'>
@@ -188,8 +190,8 @@ class Main extends React.Component {
                             <div className='box slack-box'>
                                 <div className='box-title d-flex justify-content-between'>
                                     <img  src="/images/slack_logo.png" alt="slack logo"  />
-                                    <button>
-                                        Connected
+                                    <button className='integration-btn'>
+                                        <p>Connected</p>
                                     </button>
                                 </div>
                                 <p>
@@ -201,8 +203,8 @@ class Main extends React.Component {
                             <div className='box notion-box'>
                                 <div className="box-title d-flex justify-content-between">
                                     <img src="/images/notion_logo.png" alt="notion logo" />
-                                    <button>
-                                        Connect
+                                    <button className='integration-btn'>
+                                        <p>Connect</p>
                                     </button>
                                 </div>
 
